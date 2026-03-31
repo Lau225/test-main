@@ -1,0 +1,171 @@
+/* 亮色模式变量 */
+:root {
+    --page-bg-color: #f5f5f5;
+    --card-bg-color: #fff;
+    --table-header-bg: #f8f9fa;
+    --table-header-color: #333;
+    --table-hover-bg: #f5f5f5;
+    --card-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    --text-color-primary: #333;
+    --text-color-secondary: #606266;
+    --border-color: #e4e7ed;
+    --info-bg-color: #f5f7fa;
+}
+
+/* 暗黑模式变量 */
+html.dark {
+    /* 自定义深色背景颜色 */
+    --el-bg-color: #242731;
+    --page-bg-color: #262626;
+    --card-bg-color: #262626;
+    --table-header-bg: #1a1a1a;
+    --table-header-color: #e5e5e5;
+    --table-hover-bg: #2a2a2a;
+    --card-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    --font-color: #ffffff;
+    --text-color-primary: #e5e5e5;
+    --text-color-secondary: #a0a0a0;
+    --border-color: #444;
+    --info-bg-color: #1a1a1a;
+}
+
+
+
+/* DevExtreme 下拉菜单暗黑样式 */
+.dx-submenu {
+    background: #141414 !important;
+    border: none !important;
+    border-radius: 4px !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+    padding: 4px 0 !important;
+    min-width: inherit !important;
+}
+
+.dx-submenu .dx-menu-items-container {
+    padding: 0 !important;
+}
+
+.dx-submenu .dx-menu-item {
+    background: transparent !important;
+    border: none !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    min-height: 32px !important;
+    padding: 0 !important;
+}
+
+.dx-submenu .dx-menu-item .dx-menu-item-content {
+    color: rgba(255, 255, 255, 0.85) !important;
+    padding: 6px 16px !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    white-space: nowrap !important;
+    font-family: 'Microsoft YaHei', '微软雅黑', sans-serif !important;
+}
+
+.dx-submenu .dx-menu-item:hover,
+.dx-submenu .dx-menu-item.dx-state-hover {
+    background: #409eff !important;
+}
+
+.dx-submenu .dx-menu-item:hover .dx-menu-item-content,
+.dx-submenu .dx-menu-item.dx-state-hover .dx-menu-item-content {
+    color: #ffffff !important;
+}
+
+/* Element Plus 下拉弹窗暗黑样式 */
+html.dark .el-popper {
+    background: #1a1a1a !important;
+    border: 1px solid #444 !important;
+}
+
+html.dark .el-popper.is-light {
+    background: #1a1a1a !important;
+    border: 1px solid #444 !important;
+}
+
+html.dark .el-popper.is-light .el-popper__arrow::before {
+    background: #1a1a1a !important;
+    border-color: #444 !important;
+}
+
+html.dark .el-select-dropdown {
+    background: #1a1a1a !important;
+    border: 1px solid #444 !important;
+}
+
+html.dark .el-select-dropdown__item {
+    color: #e0e0e0 !important;
+}
+
+html.dark .el-select-dropdown__item.hover,
+html.dark .el-select-dropdown__item:hover {
+    background-color: #3472DD !important;
+    color: #fff !important;
+}
+
+html.dark .el-select-dropdown__item.is-selected {
+    color: #3472DD !important;
+    background-color: transparent !important;
+}
+
+/* Element Plus 时间选择器暗黑样式 */
+html.dark .el-time-select-dropdown {
+    background: #1a1a1a !important;
+    border: 1px solid #444 !important;
+}
+
+html.dark .el-time-select-dropdown__item {
+    color: #e0e0e0 !important;
+}
+
+html.dark .el-time-select-dropdown__item:hover {
+    background-color: #2a2a2a !important;
+}
+
+html.dark .el-time-select-dropdown__item.selected {
+    color: #409eff !important;
+}
+
+/* Element Plus 日期选择器暗黑样式 */
+html.dark .el-date-picker {
+    background: #1a1a1a !important;
+    border: 1px solid #444 !important;
+}
+
+html.dark .el-date-picker__header {
+    color: #e0e0e0 !important;
+}
+
+html.dark .el-date-picker__header-label {
+    color: #e0e0e0 !important;
+}
+
+html.dark .el-picker-panel {
+    background: #1a1a1a !important;
+    border: 1px solid #444 !important;
+    color: #e0e0e0 !important;
+}
+
+html.dark .el-picker-panel__icon-btn {
+    color: #e0e0e0 !important;
+}
+
+html.dark .el-date-table th {
+    color: #aaa !important;
+}
+
+html.dark .el-date-table td.available:hover {
+    background-color: #2a2a2a !important;
+}
+
+html.dark .el-date-table td.current:not(.disabled) span {
+    background-color: #409eff !important;
+}
+
+html.dark .el-dropdown-menu__item:hover,
+html.dark .el-dropdown-menu__item:focus {
+    background-color: #3472DD !important;
+    color: #fff !important;
+    border-radius: 4px !important;
+}

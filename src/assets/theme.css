@@ -1,0 +1,49 @@
+/* 全局蓝色主题变量 */
+:root {
+  --dx-primary-color: #3366cc;
+  --dx-primary-color-light: #5c85d6;
+  --dx-primary-color-dark: #264db3;
+  --dx-primary-color-contrast: #ffffff;
+}
+
+/* 菜单组件样式已在menu.vue中定义，此处不再重复 */
+
+/* 应用蓝色主题到所有DevExtreme组件 */
+.dx-theme-material .dx-button.dx-button-default,
+.dx-theme-material .dx-button.dx-button-success {
+  background-color: var(--dx-primary-color) !important;
+  border-color: var(--dx-primary-color) !important;
+}
+
+.dx-theme-material .dx-button.dx-button-default:hover,
+.dx-theme-material .dx-button.dx-button-success:hover {
+  background-color: var(--dx-primary-color-dark) !important;
+  border-color: var(--dx-primary-color-dark) !important;
+}
+
+.dx-theme-material .dx-tab.dx-tab-selected,
+.dx-theme-material .dx-tab.dx-tab-selected .dx-icon {
+  color: var(--dx-primary-color) !important;
+}
+
+.dx-theme-material .dx-tabpanel .dx-tab-content.dx-tab-content-selected {
+  color: var(--dx-primary-color) !important;
+}
+
+/* 其他组件的蓝色主题样式 */
+.dx-theme-material .dx-checkbox.dx-checkbox-checked .dx-checkbox-icon {
+  background-color: var(--dx-primary-color) !important;
+  border-color: var(--dx-primary-color) !important;
+}
+
+.dx-theme-material .dx-switch.dx-switch-on .dx-switch-handle,
+.dx-theme-material .dx-switch.dx-switch-on .dx-switch-container {
+  background-color: var(--dx-primary-color) !important;
+  border-color: var(--dx-primary-color) !important;
+}
+
+.dx-theme-material .dx-selectbox.dx-state-focused .dx-dropdowneditor-input-wrapper,
+.dx-theme-material .dx-tagbox.dx-state-focused .dx-dropdowneditor-input-wrapper {
+  border-bottom-color: var(--dx-primary-color) !important;
+  box-shadow: inset 0 -2px 0 var(--dx-primary-color) !important;
+}
