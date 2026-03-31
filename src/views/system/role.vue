@@ -8,7 +8,7 @@
             <el-table-column prop="remark" label="备注" />
             <el-table-column label="操作" width="250" fixed="right">
                 <template #default="{ row }">
-                    <DxLinkButton @click="handleEditRole(row)">编辑</DxLinkButton>
+                    <DxLinkButton @click="handleEditRole(row)">编辑111</DxLinkButton>
                     <DxLinkButton @click="handleSetPermission(row)">编辑权限</DxLinkButton>
                     <DxLinkButton @click="handleDeleteRole(row)">删除</DxLinkButton>
                 </template>
